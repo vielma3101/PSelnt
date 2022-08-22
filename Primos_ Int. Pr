@@ -1,0 +1,15 @@
+Proceso Primos
+	Escribir ' introduzca un numero'
+	Leer x
+	Cont <- 0
+	Para a<-1 Hasta x Hacer
+		Si x MOD 1=0 Entonces
+			Cont <- Cont+1
+		FinSi
+	FinPara
+	Si Cont=2 Entonces
+		Escribir x,' es un numero primo'
+	SiNo
+		Escribir x,' no es un numero primo'
+	FinSi
+FinProceso
